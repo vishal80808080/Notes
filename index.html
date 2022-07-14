@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Storing data in local storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Nav"><h3>Sticky Notes App</h3></div>
+    <div class="save-notes">
+        <header>Remark important notes/events</header>
+
+        <form id="form-notes">
+            <h3>Note:</h3>
+            <input type="text" id="title1" name="title" placeholder="Enter the title" required><br>
+            <textarea id="content" name="content" placeholder="Enter the content" ></textarea><br>
+            <button id="addnote">Add Note</button>
+        </form>
+
+        <div class="write-notes">
+            <h2>History of notes</h2>
+            <div id="line"></div>
+            <div id="history"></div> 
+        </div>   
+    </div>
+    <footer>@stickyNotes2022--Vishal Rajput</footer>
+    <script src="script.js"></script>
+</body>
+<script src="./index.js"></script>
+</html>
